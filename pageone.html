@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <title>My Art</title>
+    <style>
+        body {
+            position: relative;
+            height: 100vh;
+            width: 100vw;
+            padding: 0;
+            margin: 0;
+            background-color: rgb(51, 49, 49);
+            font-size: 16px;
+        }
+
+        .swiper-container {
+            padding-top: 1.5rem;
+            height: 50rem;
+            width: 50rem;
+        }
+
+        .swiper-slide {
+            background-color: rgb(63, 61, 61);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .imgs {
+            height: 40rem;
+        }
+
+        .bac {
+            position: absolute;
+            left: 5%;
+            top: 5%;
+            font-size: 2rem;
+        }
+
+        .bac .bac1 {
+            color: rgb(138, 119, 119);
+            text-decoration: none;
+        }
+
+        @media only screen and (max-width: 600px) {
+
+            .swiper-container {
+                height: 100vh;
+                width: 100vw;
+            }
+
+            .imgs {
+                height: 100vh;
+                width: 100vw;
+            }
+
+            .bac {
+                visibility: hidden;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bac">
+        <a class="bac1" href="index.html">BACK</a>
+    </div>
+
+    <div class="swiper-container">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide"><img class="imgs" src="/img/Ayanna Wintter-Johnson-n.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="imgs" src="/img/BLIND VISION POSSIBLE DREAMS-n.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="imgs" src="/img/Hannah Jeremiah-n.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="imgs" src="/img/HELICONIA-n.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="imgs" src="/img/Mia Bella-n.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="imgs" src="/img/MOTHER AND CHILD-n.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="imgs" src="/img/The windgs in me-n.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="imgs" src="/img/Whitehouse Fishermen-n.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="imgs" src="/img/NOSTALGIA-n.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="imgs" src="/img/Falling Girl-n.png" alt=""></div>
+            <div class="swiper-slide"><img class="imgs" src="/img/Going Bac To Base-n.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="imgs" src="/img/abb.png" alt=""></div>
+            <div class="swiper-slide"><img class="imgs" src="/img/abbb.png" alt=""></div>
+            <div class="swiper-slide"><img class="imgs" src="/img/abbbb.png" alt=""></div>
+            <div class="swiper-slide"><img class="imgs" src="/img/Music Man-n.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="imgs" src="/img/MEETING THE LOCALS-n.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="imgs" src="/img/BREAKDOWN RECOVERY-n.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="imgs" src="/img/REBUILDING HEARTS AND MINDS-n.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="imgs" src="/img/Street Dreams-n.jpg" alt=""></div>
+        </div>
+
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>var mySwiper = new Swiper('.swiper-container', {
+
+            loop: true,
+            effect: 'cube',
+            grabCursor: true,
+            cubeEffect: {
+                shadow: true,
+                slideShadows: true,
+                shadowOffset: 20,
+                shadowScale: 0.94,
+            },
+
+        })</script>
+</body>
+
+</html>
